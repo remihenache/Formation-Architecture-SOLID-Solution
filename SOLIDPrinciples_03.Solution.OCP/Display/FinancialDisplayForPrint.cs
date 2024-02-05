@@ -1,6 +1,8 @@
-﻿namespace SOLIDPrinciples_03.Solution.OCP.Display;
+﻿using SOLIDPrinciples_03.Solution.OCP.Data;
 
-public class FinancialDisplayForPrint : OCP.FinancialDisplay
+namespace SOLIDPrinciples_03.Solution.OCP.Display;
+
+public class FinancialDisplayForPrint : FinancialDisplay
 {
     public string Display(FinancialData data)
     {
